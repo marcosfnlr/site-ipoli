@@ -1,0 +1,19 @@
+.missao img {
+	width: 90%;
+	max-width: 200px;
+	display: block;
+	margin: auto;
+}
+
+.missao-span {
+	margin: auto;
+	max-width: 250px;
+	text-align: center;
+	width: 90%;
+	max-width: 300px;
+	margin-top: 20px;
+}
+
+.missao{
+	margin-bottom: 30px;
+}

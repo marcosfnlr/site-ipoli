@@ -1,0 +1,121 @@
+body {
+	background-image: url('../images/fundo.png');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.header {
+	background-color: white;
+}
+
+.container {
+	background-color: white;
+	-webkit-box-shadow: 0 0 10px 5px #969696;
+	box-shadow: 0 0 10px 5px #969696;
+}
+/* HEADER */
+.header {
+	padding: 30px 0;
+}
+
+.header #logo {
+	width: 20%;
+	margin-left: 40%;
+}
+/* MENU */
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix+.container {
+	padding-top: 50px;
+}
+
+.navbar {
+	border-style: none;
+	background-color: rgb(41, 148, 139);
+	-webkit-box-shadow: 0 0 3px 1px #A8A8A8;
+	box-shadow: 0 0 3px 1px #A8A8A8;
+	color: #efefed;
+	border-radius: 0;
+	margin-bottom: 0;
+	z-index: 50;
+}
+
+.navbar-header a {
+	color: #efefed;
+}
+
+.navbar-header button {
+	border: 1px solid #efefed;
+	border-radius: 3px;
+	padding: 5px 7px;
+}
+
+.navbar-header a:hover {
+	transition: 0.2s;
+	color: #efefed;
+	background-color: rgb(7, 94, 87);
+}
+
+#navItems a {
+	font-weight: 400;
+	font-size: 17px;
+	font-family: "Segoe UI", Arial;
+	color: #efefed;
+}
+
+#navItems a:focus {
+	color: #efefed;
+	background-color: rgb(7, 94, 87);
+}
+
+#navItems a:active {
+	color: #efefed;
+	background-color: rgb(7, 94, 87);
+}
+
+#navItems a:visited {
+	color: #efefed;
+	background-color: rgb(7, 94, 87);
+}
+
+#navItems a:hover {
+	transition: 0.2s;
+	color: #efefed;
+	background-color: rgb(7, 94, 87);
+}
+/* SECAO */
+.secao {
+	text-align: justify;
+}
+.secao p{
+	text-indent: 30px;
+}
+/* TITULOS */
+.titulo h1 {
+	text-shadow: 1px 1px 1px #798FB0;;
+	float: left;
+	color: rgb(39, 194, 181);
+	margin-left: 20px;
+}
+
+.titulo img {
+	margin-top: 30px;
+	float: left;
+}
+
+.titulo {
+	margin: 20px 0px 30px -16px;
+}
+
+.limpar {
+	clear: both;
+}
+/* OUTROS */
+.enfase1 {
+	color: rgb(39, 194, 181);
+	font-weight: bold;
+}
