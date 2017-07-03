@@ -19,15 +19,29 @@
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navItems">
         <span class="glyphicon glyphicon-menu-hamburger"></span>
       </button>
-      <a class="navbar-brand" href="#">iPoli - Br</a>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
     </div>
     <div class="collapse navbar-collapse" id="navItems">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav dropdown-menu">
         <li><a href="#">PROJETOS</a></li>
-        <li><a href="#">DESTINOS</a></li>        
-        <li><a href="#">COMO IR</a></li>
-        <li><a href="#">INFORMAÇÕES</a></li>
+        <li class="dropdown-submenu">
+          <a href="#">INTERCÂMBIO</a>
+          <ul class="dropdown-menu">
+            <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+            <li><a tabindex="-1" href="#">2nd level dropdown</a></li>
+            <li class="dropdown-submenu">
+              <a class="test" href="#">Another dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">3rd level dropdown</a></li>
+                <li><a href="#">3rd level dropdown</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">QUEM SOMOS</a></li>        
         <li><a href="#">GALERIA</a></li>
+        <li><a href="#">F.A.Q.</a></li>
+        <li><a href="#">CONTATO</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
